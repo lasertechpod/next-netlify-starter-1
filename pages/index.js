@@ -1,23 +1,17 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+<main>
+  <h1>Laser Tech Pod</h1>
+  <h2>Laser Machine Servicing - Diode, IPL and NDYAG</h2>
 
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+  <p>
+    Mobile servicing, repairs, and preventative maintenance for laser and
+    aesthetic systems. Keeping clinics running with minimal downtime.
+  </p>
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
+  <p>
+    <strong>UK-wide coverage • Reliable • Experienced</strong>
+  </p>
 
-      <Footer />
-    </div>
-  )
-}
+  <div style={{ marginTop: '2rem' }}>
+    <a href="/contact">Request a Callback</a>
+  </div>
+</main>
